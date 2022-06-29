@@ -1,0 +1,89 @@
+body {
+    font-family: Oxygen, sans-serif;
+    font-size: 16px;
+    color: rgb(40, 75, 63);
+    background-color: rgb(141, 252, 209);
+}
+
+.header-nav {
+    
+    background-color: rgb(78, 150, 126);
+    border-radius: 0;
+    border: 0; 
+    padding: 0;
+}
+
+
+
+.navbar-brand a {
+    text-decoration: none;
+}
+
+.navbar-brand { /* Brand name */
+    color: #557c3e;
+    font-size: 1.8em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    padding: 25px 0px;
+  }
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    color: #b5beaf;
+  }
+
+#nav-menu {
+    margin-bottom: 0!important;
+}
+
+.collapse-menu {
+    background-color: rgb(193, 247, 229);
+    margin: 0px -15px;
+}
+
+.nav-item {
+    text-align: center;
+}
+
+.nav-link:hover{
+    background-color: rgb(211, 255, 240);
+    border: #b5beaf 2px solid;
+    padding: 6px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.8em;
+}
+
+
+.row div {
+    
+    margin: 15px 0px;
+    margin-bottom: 15px;
+    position: relative;
+    
+    
+}
+
+.content-menu {
+    background-color: #7ba791;
+    width: 100%;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+@media (min-width: 575px) {
+    #nav-menu, button {
+        display: none;
+    }
+
+
+}
+    
